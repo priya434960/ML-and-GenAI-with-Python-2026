@@ -1,0 +1,20 @@
+**Business Reflection Answers**
+
+1. Which factors appear to influence subscription renewal the most?
+Watch hours per week, monthly spending, subscription type, and the number of devices used appear to have the strongest influence on subscription renewal. Users who spend more time watching content and actively use the platform are generally more likely to renew their subscriptions.
+
+
+2. Why is subscription renewal a classification problem?
+Subscription renewal is a classification problem because the target variable contains two possible categories: "Yes" (Renewed) and "No" (Not Renewed). The model predicts which category a user belongs to based on their features.
+
+
+3. Why is monthly spending a regression problem?
+Monthly spending is a regression problem because it is a continuous numerical value that can take many different amounts. Regression algorithms are used when the goal is to predict a numerical output rather than a category.
+
+
+4. Which algorithm performed better for renewal prediction?
+The algorithm with the higher accuracy score on the test dataset performed better for subscription renewal prediction. By comparing the accuracy values of Decision Tree and K-Nearest Neighbors (KNN), the model with the greater accuracy is considered more effective.
+
+
+5. How could Netflix use these predictions to improve customer retention?
+Netflix can use these predictions to identify users who are less likely to renew their subscriptions. The company can then provide personalized recommendations, special discounts, targeted promotions, and engagement campaigns to encourage those users to remain subscribed. This can help increase customer satisfaction and improve overall retention rates.
